@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>MiguelBlog Bootstrap Template - Category</title>
+  <title>MiguelBlog Bootstrap Template - Single Post</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -82,107 +82,88 @@
   </header><!-- End Header -->
 
   <main id="main">
-    <section>
+
+    <section class="single-post-content">
       <div class="container">
         <div class="row">
+          <div class="col-md-9 post-content" data-aos="fade-up">
 
-          <div class="col-md-9" data-aos="fade-up">
-            <h3 class="category-title">Tech: publicaciones</h3>
+            <!-- ======= Single Post Content ======= -->
+            <div class="single-post">
+              <div class="post-meta"><span class="date">Metodologías ágiles</span> <span class="mx-1">&bullet;</span> <span>31 de Diciembre</span></div>
+              <h1 class="mb-5">Introducción a las Metodologías Ágiles</h1>
+              <p><span class="firstcharacter">L</span>as Metodologías Ágiles son enfoques colaborativos para el desarrollo que se centran en la adaptabilidad y la entrega incremental. Surgieron como respuesta a los desafíos de las metodologías tradicionales, priorizando la comunicación y la respuesta rápida a cambios.</p>
+              <div class="col-md-9"></div>
+                  <img src="assets/img/ma001.jpg" alt="" class="img-fluid" style="width: 200;">
 
-            <div class="d-md-flex post-entry-2 half">
-              <a href="post-ma.html" class="me-4 thumbnail">
-                <img src="assets/img/ma001.jpg" alt="" class="img-fluid">
-              </a>
-              <div>
-                <div class="post-meta"><span class="date">Tech</span> <span class="mx-1">&bullet;</span> <span>31 de Diciembre</span></div>
-                <h3><a href="post-ma.html">Métodologias agiles</a></h3>
-                <p>Explica qué son las Metodologías Ágiles y por qué son importantes en el desarrollo de proyectos.
-                  Enumera los principios fundamentales detrás de las metodologías ágiles, como el Manifiesto Ágil.</p>
-                <div class="d-flex align-items-center author">
-                  <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid"></div>
-                  <div class="name">
-                    <h3 class="m-0 p-0">Miguel Medina</h3>
+              </div>
+              <br/>
+              <h3 class="mb-1">Introducción a las Metodologías Ágiles</h3>
+              <p>Las Metodologías Ágiles son enfoques colaborativos para el desarrollo que se centran en la adaptabilidad y la entrega incremental. Surgieron como respuesta a los desafíos de las metodologías tradicionales, priorizando la comunicación y la respuesta rápida a cambios.</p>
+
+              <br/>
+              <h3 class="mb-1">Comparación entre Metodologías Ágiles</h3>
+              <p>Scrum se destaca por su estructura de roles y eventos, Kanban por su enfoque visual y flujo continuo, mientras que XP prioriza la calidad del software. La elección depende de las necesidades del equipo y del proyecto.</p>
+
+              <br/>
+              <h3 class="mb-1">Implementación de Scrum</h3>
+              <p>Scrum organiza el trabajo en sprints, con roles claros como Scrum Master y Product Owner. La gestión efectiva del backlog y la realización de ceremonias como la reunión diaria y la retrospectiva son cruciales para el éxito.</p>
+
+              <br/>
+              <h3 class="mb-1">Historias de Usuario y Backlog</h3>
+              <p>Las historias de usuario son descripciones centradas en el usuario de funcionalidades, y el backlog es una lista priorizada de estas historias. Mantener un backlog bien organizado facilita la planificación y la entrega eficiente.</p>
+
+              <br/>
+              <h3 class="mb-1">Daily Standups y Retrospectivas</h3>
+              <p>Las reuniones diarias breves mantienen a todos en sintonía, mientras que las retrospectivas permiten reflexionar sobre el sprint pasado y mejorar continuamente.</p>
+
+              <br/>
+              <h3 class="mb-1">Herramientas Ágiles</h3>
+              <p>Jira es conocido por su versatilidad, Trello por su simplicidad y Asana por su enfoque en la colaboración. La elección de la herramienta depende de las necesidades específicas del equipo.</p>
+
+              <br/>
+              <h3 class="mb-1">Caso de Estudio Ágil</h3>
+              <p>Empresas como Spotify han alcanzado el éxito implementando prácticas ágiles. Adoptaron estructuras ágiles para fomentar la innovación y la adaptabilidad en un mercado competitivo.</p>
+
+              <br/>
+              <h3 class="mb-1">Desafíos Comunes y Soluciones</h3>
+              <p>Resistencia al cambio y falta de comunicación son desafíos comunes. Superarlos implica una comunicación clara, formación adecuada y liderazgo comprometido.</p>
+
+              <br/>
+              <h3 class="mb-1">Agilidad en Otros Contextos</h3>
+              <p>Las Metodologías Ágiles no se limitan al desarrollo de software. Aplicadas en marketing, permiten respuestas rápidas a tendencias cambiantes, y en gestión de proyectos, facilitan la adaptación a nuevos requisitos.</p>
+
+              <br/>
+              <h3 class="mb-1">Tendencias Ágiles</h3>
+              <p>Enfoques como DevOps, que integran desarrollo y operaciones, están ganando popularidad. También se observa un aumento en la aplicación de metodologías ágiles en sectores fuera del ámbito tecnológico, como salud y gobierno.</p>
+
+            <!-- ======= Comments Form ======= -->
+            <div class="row justify-content-center mt-5">
+
+              <div class="col-lg-12">
+                <h5 class="comment-title">Realiza un comentario</h5>
+                <div class="row">
+                  <div class="col-lg-6 mb-3">
+                    <label for="comment-name">Nombre</label>
+                    <input type="text" class="form-control" id="comment-name" placeholder="Ingresa tu nombre">
+                  </div>
+                  <div class="col-lg-6 mb-3">
+                    <label for="comment-email">Correo electrónico</label>
+                    <input type="text" class="form-control" id="comment-email" placeholder="Ingresa tu correo electrónico">
+                  </div>
+                  <div class="col-12 mb-3">
+                    <label for="comment-message">Mensaje</label>
+
+                    <textarea class="form-control" id="comment-message" placeholder="Ingresa tu comentario" cols="30" rows="10"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <input type="submit" class="btn btn-primary" value="Publicar">
                   </div>
                 </div>
               </div>
-            </div>
+            </div><!-- End Comments Form -->
 
-            <div class="d-md-flex post-entry-2 half">
-              <a href="post-pd.html" class="me-4 thumbnail">
-                <img src="assets/img/pd001.jpg" alt="" class="img-fluid">
-              </a>
-              <div>
-                <div class="post-meta"><span class="date">Tech</span> <span class="mx-1">&bullet;</span> <span>31 de Diciembre</span></div>
-                <h3><a href="post-pd.html">Patrones de diseño</a></h3>
-                <p>Los patrones de diseño son soluciones probadas para problemas comunes en el desarrollo de software. Actúan como guías para diseñar sistemas más eficientes y flexibles, fomentando la reutilización de soluciones exitosas.</p>
-                <div class="d-flex align-items-center author">
-                  <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid"></div>
-                  <div class="name">
-                    <h3 class="m-0 p-0">Miguel Medina</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="d-md-flex post-entry-2 half">
-              <a href="post-m.html" class="me-4 thumbnail">
-                <img src="assets/img/m001.jpg" alt="" class="img-fluid">
-              </a>
-              <div>
-                <div class="post-meta"><span class="date">Tech</span> <span class="mx-1">&bullet;</span> <span>31 de Diciembre</span></div>
-                <h3><a href="post-m.html">Mantenimiento</a></h3>
-                <p>Explora cómo las Metodologías Ágiles, como Scrum, se aplican al mantenimiento de software. Destaca la importancia de la flexibilidad y la respuesta rápida a cambios en entornos de mantenimiento.</p>
-                <div class="d-flex align-items-center author">
-                  <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid"></div>
-                  <div class="name">
-                    <h3 class="m-0 p-0">Miguel Medina</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="d-md-flex post-entry-2 half">
-              <a href="post-r.html" class="me-4 thumbnail">
-                <img src="assets/img/r001.png" alt="" class="img-fluid">
-              </a>
-              <div>
-                <div class="post-meta"><span class="date">Tech</span> <span class="mx-1">&bullet;</span> <span>31 de Diciembre</span></div>
-                <h3><a href="post-r.html">Refactorización</a></h3>
-                <p>La refactorización de software es un proceso esencial en el desarrollo de software que implica la reestructuración del código existente para mejorar su calidad, rendimiento y mantenibilidad sin cambiar su funcionalidad externa. La combinación de Metodologías Ágiles y Patrones de Diseño ofrece un enfoque completo para llevar a cabo la refactorización de manera efectiva.</p>
-                <div class="d-flex align-items-center author">
-                  <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid"></div>
-                  <div class="name">
-                    <h3 class="m-0 p-0">Miguel Medina</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="d-md-flex post-entry-2 half">
-              <a href="post-lc.html" class="me-4 thumbnail">
-                <img src="assets/img/lc001.jpg" alt="" class="img-fluid">
-              </a>
-              <div>
-                <div class="post-meta"><span class="date">Tech</span> <span class="mx-1">&bullet;</span> <span>31 de Diciembre</span></div>
-                <h3><a href="post-lc.html">Low code</a></h3>
-                <p>En el mundo del desarrollo de software, la integración de Metodologías Ágiles y Low-Code ha dado lugar a una sinergia poderosa que redefine la creación de aplicaciones. Esta combinación estratégica no solo acelera el tiempo de entrega, sino que también establece sólidas bases de diseño respaldadas por Patrones probados.</p>
-                <div class="d-flex align-items-center author">
-                  <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid"></div>
-                  <div class="name">
-                    <h3 class="m-0 p-0">Miguel Medina</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-start py-4">
-              <div class="custom-pagination">
-                <a href="#" class="prev">Prevous</a>
-                <a href="#" class="active">1</a>
-                <a href="#" class="next">Next</a>
-              </div>
-            </div>
           </div>
-
           <div class="col-md-3">
             <!-- ======= Sidebar ======= -->
             <div class="aside-block">
@@ -258,17 +239,6 @@
             </div>
 
             <div class="aside-block">
-              <h3 class="aside-title">Categories</h3>
-              <ul class="aside-links list-unstyled">
-                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Métodologias agiles</a></li>
-                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Patrones de diseño</a></li>
-                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Mantenimiento</a></li>
-                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Refactorización</a></li>
-                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Low code</a></li>
-              </ul>
-            </div><!-- End Categories -->
-
-            <div class="aside-block">
               <h3 class="aside-title">Video</h3>
               <div class="video-post">
                 <a href="https://www.youtube.com/watch?v=AiFfDjmd0jU" class="glightbox link-video">
@@ -278,7 +248,16 @@
               </div>
             </div><!-- End Video -->
 
-
+            <div class="aside-block">
+              <h3 class="aside-title">Categories</h3>
+              <ul class="aside-links list-unstyled">
+                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Métodologias agiles</a></li>
+                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Patrones de diseño</a></li>
+                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Mantenimiento</a></li>
+                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Refactorización</a></li>
+                <li><a href="category.html"><i class="bi bi-chevron-right"></i> Low code</a></li>
+              </ul>
+            </div><!-- End Categories -->
 
             <div class="aside-block">
               <h3 class="aside-title">Etiquetas</h3>
@@ -294,7 +273,6 @@
             </div><!-- End Tags -->
 
           </div>
-
         </div>
       </div>
     </section>
